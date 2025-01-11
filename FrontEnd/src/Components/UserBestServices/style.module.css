@@ -1,0 +1,67 @@
+.bestServicesSection {
+    background-color: #0f2b44; /* Sağ tarafın arka plan rengi */
+    padding: 50px 0;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .contentContainer {
+    flex: 1;
+    padding: 40px;
+    color: #fff;
+  }
+  
+  .subTitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f44a4a;
+    margin-bottom: 15px;
+  }
+  
+  .mainTitle {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .moreButton {
+    display: inline-block;
+    background-color: #f44a4a;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .moreButton:hover {
+    background-color: #d33636;
+  }
+  

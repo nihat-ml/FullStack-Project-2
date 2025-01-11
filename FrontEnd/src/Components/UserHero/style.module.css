@@ -3,39 +3,41 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #f9f9f9;
-    padding: 50px;
+    background: #f8f8f8;
+    padding: 40px 20px;
     position: relative;
+    height: 90vh;
   }
+  
   
   .heroContent {
-    flex: 1;
+    max-width: 50%;
   }
   
-  .subtitle {
-    color: #e53935;
-    font-size: 18px;
+  .subHeading {
+    color: #e74c3c;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
+    display: block;
   }
   
-  .title {
+  .mainHeading {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 20px;
     color: #000;
+    margin-bottom: 20px;
   }
   
   .description {
     font-size: 16px;
-    color: #555;
+    color: #666;
     margin-bottom: 30px;
-    line-height: 1.5;
   }
   
   .heroButton {
-    background: #e53935;
-    color: #fff;
+    background-color: #e74c3c;
+    color: white;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -44,40 +46,41 @@
   }
   
   .heroButton:hover {
-    background: #d32f2f;
+    background-color: #c0392b;
   }
   
-  .heroImage {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .image {
-    max-width: 80%;
+  /* Sağ tərəfdə şəkil */
+  .heroImage img {
+    max-width: 500px;
+    height: auto;
     border-radius: 10px;
   }
   
-  .arrowButtons {
+  /* Navigasiya oxları */
+  .navigationArrows {
     position: absolute;
     top: 50%;
-    left: 20px;
+    transform: translateY(-50%);
+    width: 100%;
     display: flex;
-    align-items: center;
-    gap: 10px;
+    justify-content: space-between;
   }
   
   .arrowButton {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    font-size: 18px;
+    background: none;
+    border: 1px solid #ccc;
+    font-size: 20px;
     cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .arrowButton:hover {
-    background: #f1f1f1;
+    border-color: #e74c3c;
+    color: #e74c3c;
   }
   
