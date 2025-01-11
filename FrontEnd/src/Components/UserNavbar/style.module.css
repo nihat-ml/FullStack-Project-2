@@ -1,0 +1,44 @@
+
+.topNavbar {
+    background-color: #002b5c;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .topNavbarContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .mainNavbar {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    height: 30px; 
+  }
+  
+  .navLinks a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .navLinks a:hover {
+    color: #f00;
+  }
+  
+  .favoriteIcon {
+    font-size: 20px;
+    color: #f00;
+  }
+  
